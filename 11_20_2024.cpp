@@ -4,7 +4,7 @@
 MPU6050 mpu (Wire);
 
 void send_data() {
-  delay(500);
+  delay(300);
 }
 
 void setup() 
@@ -55,6 +55,4 @@ void loop()
     send_data();
     mpu.Execute();
   }
-  
-  delay(500);
 }
